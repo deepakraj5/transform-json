@@ -1,0 +1,17 @@
+{
+    "fullName": Account."Account Name",
+    "order": Account.Order.{
+        "orderId": OrderID,
+        "product": Product.{
+            "productName": `Product Name`,
+            "productId": ProductID,
+            "sku": SKU,
+            "desc": Description.{
+                "color": Colour
+            },
+            "price": Price,
+            "qty": Quantity,
+            "totalPrice": Price * Quantity
+        }
+    }
+}
