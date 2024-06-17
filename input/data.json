@@ -1,73 +1,778 @@
 {
-    "Account": {
-      "Account Name": "Firefly",
-      "Order": [
+    "items": [
         {
-          "OrderID": "order103",
-          "Product": [
-            {
-              "Product Name": "Bowler Hat",
-              "ProductID": 858383,
-              "SKU": "0406654608",
-              "Description": {
-                "Colour": "Purple",
-                "Width": 300,
-                "Height": 200,
-                "Depth": 210,
-                "Weight": 0.75
-              },
-              "Price": 34.45,
-              "Quantity": 2
+            "productCode": "UNITEDC98",
+            "productSequence": 50,
+            "productUsage": "Bundle",
+            "fulfillmentTypesSupported": [
+                "DirectShip",
+                "InStorePickup",
+                "Delivery"
+            ],
+            "goodsType": "Physical",
+            "bundledProducts": [
+                {
+                    "content": {
+                        "productName": "ASIAN",
+                        "productFullDescription": "<h3 class=\"product-facts-title\" style=\"box-sizing: border-box; padding: 4px 0px 14px; margin: 0px; text-rendering: optimizelegibility; font-size: 18px; line-height: 24px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif;\">About this item</h3><ul class=\"a-unordered-list a-vertical a-spacing-small\" style=\"box-sizing: border-box; margin: 0px 0px 0px 18px; color: rgb(15, 17, 17); padding: 0px; font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><span style=\"box-sizing: border-box;\"><li style=\"box-sizing: border-box; list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item a-size-base a-color-base\" style=\"box-sizing: border-box; line-height: 20px !important;\">Lightweight &amp; Breathable : Exclusive design and durable materials every step feels light and breezy. Breathable, free-moving fabrics which adjust according to your foot and creates an astoundingly easy-going experience.</span></li></span></ul><ul class=\"a-unordered-list a-vertical a-spacing-small\" style=\"box-sizing: border-box; margin: 0px 0px 0px 18px; color: rgb(15, 17, 17); padding: 0px; font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><span style=\"box-sizing: border-box;\"><li style=\"box-sizing: border-box; list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item a-size-base a-color-base\" style=\"box-sizing: border-box; line-height: 20px !important;\">Non Slip &amp; Shockproof : Great engineering strikes a balance in style, made in the potent design and latest fashion trends. Made for long-term wear, with extra emphasis on providing cushion to the feet, removing heel strain.</span></li></span></ul><ul class=\"a-unordered-list a-vertical a-spacing-small\" style=\"box-sizing: border-box; margin: 0px 0px 0px 18px; color: rgb(15, 17, 17); padding: 0px; font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><span style=\"box-sizing: border-box;\"><li style=\"box-sizing: border-box; list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item a-size-base a-color-base\" style=\"box-sizing: border-box; line-height: 20px !important;\">Comfort Sole &amp; Flexible Walk : The outsoles are made by an air cushion, doubling the effect of shock absorption. Besides, these shoes perform excellent in durability and are also slip resistant. It provides push cushioning comfort for foot pain relief and helps relieve pressure while conforming to your every step</span></li></span></ul>​",
+                        "productShortDescription": "<h1 id=\"title\" class=\"a-size-large a-spacing-none\" style=\"box-sizing: border-box; padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; text-rendering: optimizelegibility; font-weight: 400; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; margin-bottom: 0px !important; font-size: 24px !important; line-height: 32px !important;\"><span id=\"productTitle\" class=\"a-size-large product-title-word-break\" style=\"box-sizing: border-box; text-rendering: optimizelegibility; word-break: break-word; line-height: 32px !important;\">ASIAN Men's Sports Running,Walking,Gym,Training,Casual Sneaker Lace-Up Lightweight Shoes for Men's Express-08</span></h1>"
+                    },
+                    "productCode": "ASIAN9087",
+                    "goodsType": "Physical",
+                    "quantity": 1,
+                    "measurements": {
+                        "packageHeight": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWidth": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageLength": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWeight": {
+                            "unit": "lbs",
+                            "value": 1.000
+                        }
+                    },
+                    "isPackagedStandAlone": false,
+                    "inventoryInfo": {
+                        "manageStock": true,
+                        "outOfStockBehavior": "DisplayMessage",
+                        "onlineStockAvailable": 8890,
+                        "onlineSoftStockAvailable": 8890,
+                        "onlineLocationCode": "64604",
+                        "isSubstitutable": false
+                    },
+                    "options": [
+                        {
+                            "attributeFQN": "tenant~size1",
+                            "isHidden": false,
+                            "isMultiValue": false,
+                            "attributeDetail": {
+                                "valueType": "Predefined",
+                                "inputType": "List",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 35,
+                                "name": "Availability",
+                                "searchableInStorefront": true,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "55",
+                                    "stringValue": "Usually Ships in 24 to 48 Hours"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        },
+                        {
+                            "attributeFQN": "tenant~product-related",
+                            "isHidden": false,
+                            "isMultiValue": true,
+                            "attributeDetail": {
+                                "valueType": "AdminEntered",
+                                "inputType": "TextBox",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 38,
+                                "name": "Related Products",
+                                "searchableInStorefront": false,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "Arrow84573",
+                                    "stringValue": "Arrow84573"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        }
+                    ]
+                },
+                {
+                    "content": {
+                        "productName": "ADIDAS",
+                        "productFullDescription": "<span style=\"font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-size: 11px;\">Ankle-high grained camel leather boots in black.</span><div class=\"s-row\" style=\"margin: 0px 0px 15px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px;\"><div class=\"s-column\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 164.542px; width: 248.885px;\"><p class=\"s-text\" id=\"pdpProductDescriptionContainerText\" data-test=\"pdpProductDescriptionContainerText\" style=\"margin: 0px; padding: 0px; line-height: 1.36; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal;\"><br style=\"margin: 0px; padding: 0px;\">· Square cleft toe<br style=\"margin: 0px; padding: 0px;\">· Concealed hook-eye closure at inner side<br style=\"margin: 0px; padding: 0px;\">· Signature white stitching at heel tab<br style=\"margin: 0px; padding: 0px;\">· Buffed calfskin lining<br style=\"margin: 0px; padding: 0px;\">· Cylindrical block heel with rubber injection<br style=\"margin: 0px; padding: 0px;\">· Calfskin sole<br style=\"margin: 0px; padding: 0px;\">· Heel: H2.5\"<br style=\"margin: 0px; padding: 0px;\"><br style=\"margin: 0px; padding: 0px;\">Supplier color: Black</p></div></div><div class=\"s-row\" style=\"margin: 0px 0px 15px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px;\"><div class=\"s-column\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 29.9167px; width: 248.885px;\"><span style=\"margin: 0px; padding: 0px;\"><p class=\"s-text\" style=\"margin: 0px; padding: 0px; line-height: 1.36; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal;\">Upper: camel leather. Sole: calfskin, rubber.</p></span><p class=\"s-text\" style=\"margin: 0px; padding: 0px; line-height: 1.36; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal;\">Made in Italy.</p></div></div>",
+                        "productShortDescription": "<div class=\"s-row\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px; min-height: 15px;\"><h1 class=\"pdp-product-title__brand s-text s-text--uppercase\" style=\"margin: 0px; padding: 0px; text-rendering: optimizelegibility; font-size: 11px; line-height: 15px; font-weight: normal; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal; text-transform: uppercase; align-self: flex-end;\">ADIDAS</h1></div><div class=\"s-row\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px; min-height: 15px;\"><h2 class=\"pdp-product-title__name s-text\" id=\"pdpProductNameText\" data-test=\"pdpProductNameText\" style=\"margin: 0px; padding: 0px; text-rendering: optimizelegibility; font-size: 11px; line-height: 1.36; font-weight: normal; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal; word-break: keep-all;\">Black Tabi Ankle Boots</h2></div>"
+                    },
+                    "productCode": "241168M228010",
+                    "goodsType": "Physical",
+                    "quantity": 1,
+                    "measurements": {
+                        "packageHeight": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWidth": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageLength": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWeight": {
+                            "unit": "lbs",
+                            "value": 1.000
+                        }
+                    },
+                    "isPackagedStandAlone": false,
+                    "inventoryInfo": {
+                        "manageStock": true,
+                        "outOfStockBehavior": "DisplayMessage",
+                        "onlineStockAvailable": 6244,
+                        "onlineSoftStockAvailable": 6244,
+                        "onlineLocationCode": "64604",
+                        "isSubstitutable": false
+                    },
+                    "options": [
+                        {
+                            "attributeFQN": "tenant~size1",
+                            "isHidden": false,
+                            "isMultiValue": false,
+                            "attributeDetail": {
+                                "valueType": "Predefined",
+                                "inputType": "List",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 35,
+                                "name": "Availability",
+                                "searchableInStorefront": true,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "50",
+                                    "stringValue": "Usually Ships in 24 to 48 Hours"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        },
+                        {
+                            "attributeFQN": "tenant~product-related",
+                            "isHidden": false,
+                            "isMultiValue": true,
+                            "attributeDetail": {
+                                "valueType": "AdminEntered",
+                                "inputType": "TextBox",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 38,
+                                "name": "Related Products",
+                                "searchableInStorefront": false,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "Arrow84573",
+                                    "stringValue": "Arrow84573"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        }
+                    ]
+                }
+            ],
+            "content": {
+                "productName": "UNITED COLORS",
+                "productFullDescription": "<div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Manufacturer</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">United Colors of Benetton, Elegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,India</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Packer</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">Elegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,India</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Item Weight</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">120 g</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Item Dimensions LxWxH</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">77 x 20 x 5 Centimeters</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Generic Name</span></div></div></div><span style=\"color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\">T-Shirt</span>​",
+                "productShortDescription": "<h1 id=\"title\" class=\"a-size-large a-spacing-none\" style=\"box-sizing: border-box; padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; text-rendering: optimizelegibility; font-weight: 400; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; margin-bottom: 0px !important; font-size: 24px !important; line-height: 32px !important;\"><span id=\"productTitle\" class=\"a-size-large product-title-word-break\" style=\"box-sizing: border-box; text-rendering: optimizelegibility; word-break: break-word; line-height: 32px !important;\">UNITED COLORS OF BENETTON Men's T-Shirt</span></h1>",
+                "metaTagTitle": "UNITED COLORS",
+                "metaTagDescription": "ManufacturerUnited Colors of Benetton, Elegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,IndiaPackerElegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,IndiaItem Weight120 gItem Dimensions LxWxH77 x 20 x 5 CentimetersGeneric NameT-Shirt​",
+                "seoFriendlyUrl": "united-colors",
+                "productImages": [
+                    {
+                        "altText": "",
+                        "imageUrl": "//cdn-sb.mozu.com/42183-64604/cms/64604/files/98d4d5ef-652e-44dc-9950-692a813d5b9d",
+                        "cmsId": "98d4d5ef-652e-44dc-9950-692a813d5b9d",
+                        "sequence": 1,
+                        "productImageGroupId": "default"
+                    }
+                ]
             },
-            {
-              "Product Name": "Trilby hat",
-              "ProductID": 858236,
-              "SKU": "0406634348",
-              "Description": {
-                "Colour": "Orange",
-                "Width": 300,
-                "Height": 200,
-                "Depth": 210,
-                "Weight": 0.6
-              },
-              "Price": 21.67,
-              "Quantity": 1
-            }
-          ]
+            "purchasableState": {
+                "isPurchasable": true
+            },
+            "isActive": true,
+            "publishState": "Live",
+            "price": {
+                "price": 80.0000,
+                "priceType": "List",
+                "catalogListPrice": 80.0000
+            },
+            "productType": "Clothing Bundle",
+            "productTypeId": 26,
+            "isTaxable": true,
+            "isRecurring": false,
+            "pricingBehavior": {
+                "discountsRestricted": false
+            },
+            "inventoryInfo": {
+                "manageStock": true,
+                "outOfStockBehavior": "DisplayMessage",
+                "onlineStockAvailable": 6244,
+                "onlineSoftStockAvailable": 6244,
+                "onlineLocationCode": "64604",
+                "isSubstitutable": false
+            },
+            "createDate": "2024-01-09T10:27:31.711Z",
+            "updateDate": "2024-06-11T10:49:58.309Z",
+            "dateFirstAvailableInCatalog": "2024-01-09T12:00:00.000Z",
+            "daysAvailableInCatalog": 153,
+            "categories": [
+                {
+                    "categoryId": 14,
+                    "categoryCode": "14",
+                    "content": {
+                        "name": "Clothing",
+                        "description": "",
+                        "pageTitle": "",
+                        "metaTagTitle": "",
+                        "metaTagDescription": "",
+                        "metaTagKeywords": "",
+                        "slug": "fashion",
+                        "categoryImages": []
+                    },
+                    "sequence": 4,
+                    "isDisplayed": true,
+                    "count": 0,
+                    "updateDate": "0001-01-01T00:00:00.000Z",
+                    "shouldSlice": false
+                }
+            ],
+            "measurements": {
+                "packageHeight": {
+                    "unit": "in",
+                    "value": 1.000
+                },
+                "packageWidth": {
+                    "unit": "in",
+                    "value": 1.000
+                },
+                "packageLength": {
+                    "unit": "in",
+                    "value": 1.000
+                },
+                "packageWeight": {
+                    "unit": "lbs",
+                    "value": 1.000
+                }
+            },
+            "isPackagedStandAlone": false,
+            "properties": [
+                {
+                    "attributeFQN": "tenant~availability",
+                    "isHidden": false,
+                    "isMultiValue": false,
+                    "attributeDetail": {
+                        "valueType": "Predefined",
+                        "inputType": "List",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 35,
+                        "name": "Availability",
+                        "searchableInStorefront": true,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "24-48hrs",
+                            "stringValue": "Usually Ships in 24 to 48 Hours"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                },
+                {
+                    "attributeFQN": "tenant~product-related",
+                    "isHidden": false,
+                    "isMultiValue": true,
+                    "attributeDetail": {
+                        "valueType": "AdminEntered",
+                        "inputType": "TextBox",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 38,
+                        "name": "Related Products",
+                        "searchableInStorefront": false,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "Arrow84573",
+                            "stringValue": "Arrow84573"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                }
+            ],
+            "slicingAttributeFQN": "",
+            "productImageGroups": [],
+            "productCollections": [],
+            "score": 0,
+            "personalizationScore": 0,
+            "costPriceMargin": 100,
+            "options": [
+                {
+                    "attributeFQN": "tenant~size1",
+                    "isHidden": false,
+                    "isMultiValue": false,
+                    "attributeDetail": {
+                        "valueType": "Predefined",
+                        "inputType": "List",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 35,
+                        "name": "Availability",
+                        "searchableInStorefront": true,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "84",
+                            "stringValue": "Usually Ships in 24 to 48 Hours"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                },
+                {
+                    "attributeFQN": "tenant~product-related",
+                    "isHidden": false,
+                    "isMultiValue": true,
+                    "attributeDetail": {
+                        "valueType": "AdminEntered",
+                        "inputType": "TextBox",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 38,
+                        "name": "Related Products",
+                        "searchableInStorefront": false,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "Arrow84573",
+                            "stringValue": "Arrow84573"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                }
+            ]
         },
         {
-          "OrderID": "order104",
-          "Product": [
-            {
-              "Product Name": "Bowler Hat",
-              "ProductID": 858383,
-              "SKU": "040657863",
-              "Description": {
-                "Colour": "Purple",
-                "Width": 300,
-                "Height": 200,
-                "Depth": 210,
-                "Weight": 0.75
-              },
-              "Price": 34.45,
-              "Quantity": 4
+            "productCode": "UNITEDC99",
+            "productSequence": 50,
+            "productUsage": "Bundle",
+            "fulfillmentTypesSupported": [
+                "DirectShip",
+                "InStorePickup",
+                "Delivery"
+            ],
+            "goodsType": "Physical",
+            "bundledProducts": [
+                {
+                    "content": {
+                        "productName": "ASIAN",
+                        "productFullDescription": "<h3 class=\"product-facts-title\" style=\"box-sizing: border-box; padding: 4px 0px 14px; margin: 0px; text-rendering: optimizelegibility; font-size: 18px; line-height: 24px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif;\">About this item</h3><ul class=\"a-unordered-list a-vertical a-spacing-small\" style=\"box-sizing: border-box; margin: 0px 0px 0px 18px; color: rgb(15, 17, 17); padding: 0px; font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><span style=\"box-sizing: border-box;\"><li style=\"box-sizing: border-box; list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item a-size-base a-color-base\" style=\"box-sizing: border-box; line-height: 20px !important;\">Lightweight &amp; Breathable : Exclusive design and durable materials every step feels light and breezy. Breathable, free-moving fabrics which adjust according to your foot and creates an astoundingly easy-going experience.</span></li></span></ul><ul class=\"a-unordered-list a-vertical a-spacing-small\" style=\"box-sizing: border-box; margin: 0px 0px 0px 18px; color: rgb(15, 17, 17); padding: 0px; font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><span style=\"box-sizing: border-box;\"><li style=\"box-sizing: border-box; list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item a-size-base a-color-base\" style=\"box-sizing: border-box; line-height: 20px !important;\">Non Slip &amp; Shockproof : Great engineering strikes a balance in style, made in the potent design and latest fashion trends. Made for long-term wear, with extra emphasis on providing cushion to the feet, removing heel strain.</span></li></span></ul><ul class=\"a-unordered-list a-vertical a-spacing-small\" style=\"box-sizing: border-box; margin: 0px 0px 0px 18px; color: rgb(15, 17, 17); padding: 0px; font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><span style=\"box-sizing: border-box;\"><li style=\"box-sizing: border-box; list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item a-size-base a-color-base\" style=\"box-sizing: border-box; line-height: 20px !important;\">Comfort Sole &amp; Flexible Walk : The outsoles are made by an air cushion, doubling the effect of shock absorption. Besides, these shoes perform excellent in durability and are also slip resistant. It provides push cushioning comfort for foot pain relief and helps relieve pressure while conforming to your every step</span></li></span></ul>​",
+                        "productShortDescription": "<h1 id=\"title\" class=\"a-size-large a-spacing-none\" style=\"box-sizing: border-box; padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; text-rendering: optimizelegibility; font-weight: 400; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; margin-bottom: 0px !important; font-size: 24px !important; line-height: 32px !important;\"><span id=\"productTitle\" class=\"a-size-large product-title-word-break\" style=\"box-sizing: border-box; text-rendering: optimizelegibility; word-break: break-word; line-height: 32px !important;\">ASIAN Men's Sports Running,Walking,Gym,Training,Casual Sneaker Lace-Up Lightweight Shoes for Men's Express-08</span></h1>"
+                    },
+                    "productCode": "ASIAN9087",
+                    "goodsType": "Physical",
+                    "quantity": 1,
+                    "measurements": {
+                        "packageHeight": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWidth": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageLength": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWeight": {
+                            "unit": "lbs",
+                            "value": 1.000
+                        }
+                    },
+                    "isPackagedStandAlone": false,
+                    "inventoryInfo": {
+                        "manageStock": true,
+                        "outOfStockBehavior": "DisplayMessage",
+                        "onlineStockAvailable": 8890,
+                        "onlineSoftStockAvailable": 8890,
+                        "onlineLocationCode": "64604",
+                        "isSubstitutable": false
+                    },
+                    "options": [
+                        {
+                            "attributeFQN": "tenant~size1",
+                            "isHidden": false,
+                            "isMultiValue": false,
+                            "attributeDetail": {
+                                "valueType": "Predefined",
+                                "inputType": "List",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 35,
+                                "name": "Availability",
+                                "searchableInStorefront": true,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "55",
+                                    "stringValue": "Usually Ships in 24 to 48 Hours"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        },
+                        {
+                            "attributeFQN": "tenant~product-related",
+                            "isHidden": false,
+                            "isMultiValue": true,
+                            "attributeDetail": {
+                                "valueType": "AdminEntered",
+                                "inputType": "TextBox",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 38,
+                                "name": "Related Products",
+                                "searchableInStorefront": false,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "Arrow84573",
+                                    "stringValue": "Arrow84573"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        }
+                    ]
+                },
+                {
+                    "content": {
+                        "productName": "ADIDAS",
+                        "productFullDescription": "<span style=\"font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-size: 11px;\">Ankle-high grained camel leather boots in black.</span><div class=\"s-row\" style=\"margin: 0px 0px 15px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px;\"><div class=\"s-column\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 164.542px; width: 248.885px;\"><p class=\"s-text\" id=\"pdpProductDescriptionContainerText\" data-test=\"pdpProductDescriptionContainerText\" style=\"margin: 0px; padding: 0px; line-height: 1.36; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal;\"><br style=\"margin: 0px; padding: 0px;\">· Square cleft toe<br style=\"margin: 0px; padding: 0px;\">· Concealed hook-eye closure at inner side<br style=\"margin: 0px; padding: 0px;\">· Signature white stitching at heel tab<br style=\"margin: 0px; padding: 0px;\">· Buffed calfskin lining<br style=\"margin: 0px; padding: 0px;\">· Cylindrical block heel with rubber injection<br style=\"margin: 0px; padding: 0px;\">· Calfskin sole<br style=\"margin: 0px; padding: 0px;\">· Heel: H2.5\"<br style=\"margin: 0px; padding: 0px;\"><br style=\"margin: 0px; padding: 0px;\">Supplier color: Black</p></div></div><div class=\"s-row\" style=\"margin: 0px 0px 15px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px;\"><div class=\"s-column\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 29.9167px; width: 248.885px;\"><span style=\"margin: 0px; padding: 0px;\"><p class=\"s-text\" style=\"margin: 0px; padding: 0px; line-height: 1.36; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal;\">Upper: camel leather. Sole: calfskin, rubber.</p></span><p class=\"s-text\" style=\"margin: 0px; padding: 0px; line-height: 1.36; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal;\">Made in Italy.</p></div></div>",
+                        "productShortDescription": "<div class=\"s-row\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px; min-height: 15px;\"><h1 class=\"pdp-product-title__brand s-text s-text--uppercase\" style=\"margin: 0px; padding: 0px; text-rendering: optimizelegibility; font-size: 11px; line-height: 15px; font-weight: normal; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal; text-transform: uppercase; align-self: flex-end;\">ADIDAS</h1></div><div class=\"s-row\" style=\"margin: 0px; padding: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: flex; width: 248.885px; font-family: &quot;Favorit SSENSE Inter&quot;; font-size: 11px; min-height: 15px;\"><h2 class=\"pdp-product-title__name s-text\" id=\"pdpProductNameText\" data-test=\"pdpProductNameText\" style=\"margin: 0px; padding: 0px; text-rendering: optimizelegibility; font-size: 11px; line-height: 1.36; font-weight: normal; font-family: &quot;Favorit SSENSE Inter&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: 0.09px; font-stretch: normal; word-break: keep-all;\">Black Tabi Ankle Boots</h2></div>"
+                    },
+                    "productCode": "241168M228010",
+                    "goodsType": "Physical",
+                    "quantity": 1,
+                    "measurements": {
+                        "packageHeight": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWidth": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageLength": {
+                            "unit": "in",
+                            "value": 1.000
+                        },
+                        "packageWeight": {
+                            "unit": "lbs",
+                            "value": 1.000
+                        }
+                    },
+                    "isPackagedStandAlone": false,
+                    "inventoryInfo": {
+                        "manageStock": true,
+                        "outOfStockBehavior": "DisplayMessage",
+                        "onlineStockAvailable": 6244,
+                        "onlineSoftStockAvailable": 6244,
+                        "onlineLocationCode": "64604",
+                        "isSubstitutable": false
+                    },
+                    "options": [
+                        {
+                            "attributeFQN": "tenant~size1",
+                            "isHidden": false,
+                            "isMultiValue": false,
+                            "attributeDetail": {
+                                "valueType": "Predefined",
+                                "inputType": "List",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 35,
+                                "name": "Availability",
+                                "searchableInStorefront": true,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "45",
+                                    "stringValue": "Usually Ships in 24 to 48 Hours"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        },
+                        {
+                            "attributeFQN": "tenant~product-related",
+                            "isHidden": false,
+                            "isMultiValue": true,
+                            "attributeDetail": {
+                                "valueType": "AdminEntered",
+                                "inputType": "TextBox",
+                                "dataType": "String",
+                                "usageType": "Property",
+                                "dataTypeSequence": 38,
+                                "name": "Related Products",
+                                "searchableInStorefront": false,
+                                "searchDisplayValue": false,
+                                "allowFilteringAndSortingInStorefront": true,
+                                "customWeightInStorefrontSearch": false,
+                                "availableForOrderRouting": false
+                            },
+                            "values": [
+                                {
+                                    "value": "Arrow84573",
+                                    "stringValue": "Arrow84573"
+                                }
+                            ],
+                            "propertyType": "StandardProperty"
+                        }
+                    ]
+                }
+            ],
+            "content": {
+                "productName": "UNITED COLORS",
+                "productFullDescription": "<div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Manufacturer</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">United Colors of Benetton, Elegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,India</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Packer</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">Elegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,India</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Item Weight</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">120 g</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Item Dimensions LxWxH</span></div><div class=\"a-fixed-left-grid-col a-col-right\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 215.625px; padding-left: 12.9375px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto;\">77 x 20 x 5 Centimeters</span></div></div></div><div class=\"a-fixed-left-grid product-facts-detail\" style=\"box-sizing: border-box; position: relative; line-height: 20px; margin-bottom: 8px; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\"><div class=\"a-fixed-left-grid-inner\" style=\"box-sizing: border-box; position: relative; padding: 0px 0px 0px 140px;\"><div class=\"a-fixed-left-grid-col a-col-left\" style=\"box-sizing: border-box; position: relative; overflow: visible; zoom: 1; min-height: 1px; width: 140px; padding-right: 0px; margin-left: -140px; float: left;\"><span style=\"box-sizing: border-box; word-break: break-word; hyphens: auto; font-weight: 600;\">Generic Name</span></div></div></div><span style=\"color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; font-size: 14px;\">T-Shirt</span>​",
+                "productShortDescription": "<h1 id=\"title\" class=\"a-size-large a-spacing-none\" style=\"box-sizing: border-box; padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; text-rendering: optimizelegibility; font-weight: 400; color: rgb(15, 17, 17); font-family: &quot;Amazon Ember&quot;, Arial, sans-serif; margin-bottom: 0px !important; font-size: 24px !important; line-height: 32px !important;\"><span id=\"productTitle\" class=\"a-size-large product-title-word-break\" style=\"box-sizing: border-box; text-rendering: optimizelegibility; word-break: break-word; line-height: 32px !important;\">UNITED COLORS OF BENETTON Men's T-Shirt</span></h1>",
+                "metaTagTitle": "UNITED COLORS",
+                "metaTagDescription": "ManufacturerUnited Colors of Benetton, Elegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,IndiaPackerElegant Overseas,Behrampur Road, Gurgaon, (Haryana),122001,IndiaItem Weight120 gItem Dimensions LxWxH77 x 20 x 5 CentimetersGeneric NameT-Shirt​",
+                "seoFriendlyUrl": "united-colors",
+                "productImages": [
+                    {
+                        "altText": "",
+                        "imageUrl": "//cdn-sb.mozu.com/42183-64604/cms/64604/files/98d4d5ef-652e-44dc-9950-692a813d5b9d",
+                        "cmsId": "98d4d5ef-652e-44dc-9950-692a813d5b9d",
+                        "sequence": 1,
+                        "productImageGroupId": "default"
+                    }
+                ]
             },
-            {
-              "ProductID": 345664,
-              "SKU": "0406654603",
-              "Product Name": "Cloak",
-              "Description": {
-                "Colour": "Black",
-                "Width": 30,
-                "Height": 20,
-                "Depth": 210,
-                "Weight": 2
-              },
-              "Price": 107.99,
-              "Quantity": 1
-            }
-          ]
+            "purchasableState": {
+                "isPurchasable": true
+            },
+            "isActive": true,
+            "publishState": "Live",
+            "price": {
+                "price": 80.0000,
+                "priceType": "List",
+                "catalogListPrice": 80.0000
+            },
+            "productType": "Clothing Bundle",
+            "productTypeId": 26,
+            "isTaxable": true,
+            "isRecurring": false,
+            "pricingBehavior": {
+                "discountsRestricted": false
+            },
+            "inventoryInfo": {
+                "manageStock": true,
+                "outOfStockBehavior": "DisplayMessage",
+                "onlineStockAvailable": 6244,
+                "onlineSoftStockAvailable": 6244,
+                "onlineLocationCode": "64604",
+                "isSubstitutable": false
+            },
+            "createDate": "2024-01-09T10:27:31.711Z",
+            "updateDate": "2024-06-11T10:49:58.309Z",
+            "dateFirstAvailableInCatalog": "2024-01-09T12:00:00.000Z",
+            "daysAvailableInCatalog": 153,
+            "categories": [
+                {
+                    "categoryId": 14,
+                    "categoryCode": "14",
+                    "content": {
+                        "name": "Clothing",
+                        "description": "",
+                        "pageTitle": "",
+                        "metaTagTitle": "",
+                        "metaTagDescription": "",
+                        "metaTagKeywords": "",
+                        "slug": "fashion",
+                        "categoryImages": []
+                    },
+                    "sequence": 4,
+                    "isDisplayed": true,
+                    "count": 0,
+                    "updateDate": "0001-01-01T00:00:00.000Z",
+                    "shouldSlice": false
+                }
+            ],
+            "measurements": {
+                "packageHeight": {
+                    "unit": "in",
+                    "value": 1.000
+                },
+                "packageWidth": {
+                    "unit": "in",
+                    "value": 1.000
+                },
+                "packageLength": {
+                    "unit": "in",
+                    "value": 1.000
+                },
+                "packageWeight": {
+                    "unit": "lbs",
+                    "value": 1.000
+                }
+            },
+            "isPackagedStandAlone": false,
+            "properties": [
+                {
+                    "attributeFQN": "tenant~availability",
+                    "isHidden": false,
+                    "isMultiValue": false,
+                    "attributeDetail": {
+                        "valueType": "Predefined",
+                        "inputType": "List",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 35,
+                        "name": "Availability",
+                        "searchableInStorefront": true,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "12-24hrs",
+                            "stringValue": "Usually Ships in 24 to 48 Hours"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                },
+                {
+                    "attributeFQN": "tenant~product-related",
+                    "isHidden": false,
+                    "isMultiValue": true,
+                    "attributeDetail": {
+                        "valueType": "AdminEntered",
+                        "inputType": "TextBox",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 38,
+                        "name": "Related Products",
+                        "searchableInStorefront": false,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "Arrow84573",
+                            "stringValue": "Arrow84573"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                }
+            ],
+            "slicingAttributeFQN": "",
+            "productImageGroups": [],
+            "productCollections": [],
+            "score": 0,
+            "personalizationScore": 0,
+            "costPriceMargin": 100,
+            "options": [
+                {
+                    "attributeFQN": "tenant~size1",
+                    "isHidden": false,
+                    "isMultiValue": false,
+                    "attributeDetail": {
+                        "valueType": "Predefined",
+                        "inputType": "List",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 35,
+                        "name": "Availability",
+                        "searchableInStorefront": true,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "84",
+                            "stringValue": "Usually Ships in 24 to 48 Hours"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                },
+                {
+                    "attributeFQN": "tenant~product-related",
+                    "isHidden": false,
+                    "isMultiValue": true,
+                    "attributeDetail": {
+                        "valueType": "AdminEntered",
+                        "inputType": "TextBox",
+                        "dataType": "String",
+                        "usageType": "Property",
+                        "dataTypeSequence": 38,
+                        "name": "Related Products",
+                        "searchableInStorefront": false,
+                        "searchDisplayValue": false,
+                        "allowFilteringAndSortingInStorefront": true,
+                        "customWeightInStorefrontSearch": false,
+                        "availableForOrderRouting": false
+                    },
+                    "values": [
+                        {
+                            "value": "Arrow84573",
+                            "stringValue": "Arrow84573"
+                        }
+                    ],
+                    "propertyType": "StandardProperty"
+                }
+            ]
         }
-      ]
-    }
-  }
+    ]
+}

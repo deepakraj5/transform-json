@@ -1,17 +1,32 @@
 {
-    "fullName": Account."Account Name",
-    "order": Account.Order.{
-        "orderId": OrderID,
-        "product": Product.{
-            "productName": `Product Name`,
-            "productId": ProductID,
-            "sku": SKU,
-            "desc": Description.{
-                "color": Colour
-            },
-            "price": Price,
-            "qty": Quantity,
-            "totalPrice": Price * Quantity
+    "items": items.bundledProducts.{
+        "productId": productCode,
+        "ProductTitle": {
+            "EN": content.productName,
+            "ZH": content.productName
+        },
+        "objectID": %.productCode,
+        "parentID": %.productCode,
+        "childVariantID": productCode,
+        "productType": {
+            "EN": %.productType,
+            "ZH": %.productType
+        },
+        "fit": {
+            "EN": %.properties[attributeFQN="tenant~availability"].values.value,
+            "ZH": %.properties[attributeFQN="tenant~availability"].values.value
+        },
+        "productDescription": {
+            "EN": %.content.productFullDescription,
+            "ZH": %.content.productFullDescription
+        },
+        "productSize": {
+            "EN": options[attributeFQN="tenant~size1"].values.value,
+            "ZH": options[attributeFQN="tenant~size1"].values.value
+        },
+        "category": {
+            "EN": $exists(%.categories.categoryCode) ? %.categories.categoryCode : %.categories.content.name,
+            "ZH": $exists(%.categories.categoryCode) ? %.categories.categoryCode : %.categories.content.name
         }
     }
 }

@@ -1,0 +1,31 @@
+{
+    "items": items.{
+        "productId": productCode,
+        "ProductTitle": {
+            "EN": content.productName,
+            "ZH": content.productName
+        },
+        "childVariantID": bundledProducts[0].productCode,
+        "productType": {
+            "EN": productType,
+            "ZH": productType
+        },
+        "fit": {
+            "EN": properties[attributeFQN="tenant~availability"].values.value,
+            "ZH": properties[attributeFQN="tenant~availability"].values.value
+        },
+        "productDescription": {
+            "EN": content.productFullDescription,
+            "ZH": content.productFullDescription
+        },
+        "productSize": {
+            "EN": $exists(options[attributeFQN="tenant~size1"].values.value) ? options[attributeFQN="tenant~size1"].values.value : variations[0].options[attributeFQN="tenant~size1"].values.value,
+            "ZH": $exists(options[attributeFQN="tenant~size1"].values.value) ? options[attributeFQN="tenant~size1"].values.value : variations[0].options[attributeFQN="tenant~size1"].values.value
+        },
+        "category": {
+            "EN": $exists(categories.categoryCode) ? categories.categoryCode : categories.content.name,
+            "ZH": $exists(categories.categoryCode) ? categories.categoryCode : categories.content.name
+        },
+        "productCreationDate": createDate
+    }
+}
