@@ -1,32 +1,24 @@
 {
-    "items": items.bundledProducts.{
+    "items": items.{
         "productId": productCode,
         "ProductTitle": {
-            "EN": content.productName,
-            "ZH": content.productName
+            "EN": productInCatalogs[content.localeCode="en-US" and catalogId=5].content.productName,
+            "ZH": productInCatalogs[content.localeCode="ar-AE" and catalogId=6].content.productName
         },
-        "objectID": %.productCode,
-        "parentID": %.productCode,
-        "childVariantID": productCode,
-        "productType": {
-            "EN": %.productType,
-            "ZH": %.productType
-        },
-        "fit": {
-            "EN": %.properties[attributeFQN="tenant~availability"].values.value,
-            "ZH": %.properties[attributeFQN="tenant~availability"].values.value
+        "fabricType": {
+            "EN": properties[attributeFQN="tenant~fabric-type"].values.value,
+            "ZH": properties[attributeFQN="tenant~fabric-type"].values.value
         },
         "productDescription": {
-            "EN": %.content.productFullDescription,
-            "ZH": %.content.productFullDescription
+            "EN": productInCatalogs[content.localeCode="en-US" and catalogId=5].content.productFullDescription,
+            "ZH": productInCatalogs[content.localeCode="ar-AE" and catalogId=6].content.productFullDescription
         },
-        "productSize": {
-            "EN": options[attributeFQN="tenant~size1"].values.value,
-            "ZH": options[attributeFQN="tenant~size1"].values.value
+        "gender": {
+            "EN": properties[attributeFQN="tenant~gender"].values.value,
+            "ZH": properties[attributeFQN="tenant~gender"].values.value
         },
-        "category": {
-            "EN": $exists(%.categories.categoryCode) ? %.categories.categoryCode : %.categories.content.name,
-            "ZH": $exists(%.categories.categoryCode) ? %.categories.categoryCode : %.categories.content.name
-        }
+        "productCreationDate": auditInfo.createDate,
+        "productURL": productInCatalogs[seoContent.localeCode="en-US" and catalogId=5].seoContent.seoFriendlyUrl,
+        "cncAvailable": $exists(fulfillmentTypesSupported)
     }
 }
